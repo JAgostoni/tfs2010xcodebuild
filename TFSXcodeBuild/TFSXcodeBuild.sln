@@ -3,18 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XcodeBuild", "XcodeBuild\XcodeBuild.csproj", "{8CC6FA08-8111-46AF-B921-A6F7A2662752}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XcodeBuildTests", "XcodeBuildTests\XcodeBuildTests.csproj", "{47973724-04FE-4E86-A645-CFC77DEB15D2}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{AB4FA95B-4BDD-476B-9E6C-9C805B34D22D}"
-	ProjectSection(SolutionItems) = preProject
-		Local.testsettings = Local.testsettings
-		TFSXcodeBuild.vsmdi = TFSXcodeBuild.vsmdi
-		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
-	EndProjectSection
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XcodeBuildSSHClient", "XcodeBuildSSHClient\XcodeBuildSSHClient.csproj", "{787E499F-7C43-4D5A-BF2C-18005322F046}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XcodeBuildSSHClientTests", "XcodeBuildSSHClientTests\XcodeBuildSSHClientTests.csproj", "{BECB3231-2741-41FC-8957-4B8F030B65F2}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XcodeBuildActivity", "XcodeBuildActivity\XcodeBuildActivity.csproj", "{D362C774-00ED-4A6C-B44D-7EAFBACA4319}"
 EndProject
@@ -24,9 +13,6 @@ Global
 	GlobalSection(SubversionScc) = preSolution
 		Svn-Managed = True
 		Manager = AnkhSVN - Subversion Support for Visual Studio
-	EndGlobalSection
-	GlobalSection(TestCaseManagementSettings) = postSolution
-		CategoryFile = TFSXcodeBuild.vsmdi
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,14 +31,6 @@ Global
 		{8CC6FA08-8111-46AF-B921-A6F7A2662752}.Release|Any CPU.Build.0 = Release|Any CPU
 		{8CC6FA08-8111-46AF-B921-A6F7A2662752}.Release|x64.ActiveCfg = Release|Any CPU
 		{8CC6FA08-8111-46AF-B921-A6F7A2662752}.Release|x86.ActiveCfg = Release|Any CPU
-		{47973724-04FE-4E86-A645-CFC77DEB15D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{47973724-04FE-4E86-A645-CFC77DEB15D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{47973724-04FE-4E86-A645-CFC77DEB15D2}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{47973724-04FE-4E86-A645-CFC77DEB15D2}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{47973724-04FE-4E86-A645-CFC77DEB15D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{47973724-04FE-4E86-A645-CFC77DEB15D2}.Release|Any CPU.Build.0 = Release|Any CPU
-		{47973724-04FE-4E86-A645-CFC77DEB15D2}.Release|x64.ActiveCfg = Release|Any CPU
-		{47973724-04FE-4E86-A645-CFC77DEB15D2}.Release|x86.ActiveCfg = Release|Any CPU
 		{787E499F-7C43-4D5A-BF2C-18005322F046}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{787E499F-7C43-4D5A-BF2C-18005322F046}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{787E499F-7C43-4D5A-BF2C-18005322F046}.Debug|x64.ActiveCfg = Debug|Any CPU
@@ -61,14 +39,6 @@ Global
 		{787E499F-7C43-4D5A-BF2C-18005322F046}.Release|Any CPU.Build.0 = Release|Any CPU
 		{787E499F-7C43-4D5A-BF2C-18005322F046}.Release|x64.ActiveCfg = Release|Any CPU
 		{787E499F-7C43-4D5A-BF2C-18005322F046}.Release|x86.ActiveCfg = Release|Any CPU
-		{BECB3231-2741-41FC-8957-4B8F030B65F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BECB3231-2741-41FC-8957-4B8F030B65F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BECB3231-2741-41FC-8957-4B8F030B65F2}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{BECB3231-2741-41FC-8957-4B8F030B65F2}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{BECB3231-2741-41FC-8957-4B8F030B65F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BECB3231-2741-41FC-8957-4B8F030B65F2}.Release|Any CPU.Build.0 = Release|Any CPU
-		{BECB3231-2741-41FC-8957-4B8F030B65F2}.Release|x64.ActiveCfg = Release|Any CPU
-		{BECB3231-2741-41FC-8957-4B8F030B65F2}.Release|x86.ActiveCfg = Release|Any CPU
 		{D362C774-00ED-4A6C-B44D-7EAFBACA4319}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{D362C774-00ED-4A6C-B44D-7EAFBACA4319}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D362C774-00ED-4A6C-B44D-7EAFBACA4319}.Debug|x64.ActiveCfg = Debug|Any CPU
